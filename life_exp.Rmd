@@ -13,3 +13,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Here, I examine the famous plot from Oeppen and Vaupel (2002). 
 
+# Analysis
+
+Here, I load in the data. 
