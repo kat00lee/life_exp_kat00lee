@@ -1,0 +1,15 @@
+---
+title: "Life Expectancy Analysis"
+author: "Katherine Lee"
+date: "8/24/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Abstract 
+
+Here, I examine the famous plot from Oeppen and Vaupel (2002). 
+
