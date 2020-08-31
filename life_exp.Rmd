@@ -35,7 +35,7 @@ gapminder_unfiltered %>%
 
 ```
 
-Now, I will make a plot 
+Now, I will add another chunk
 
 ```{r}
 
@@ -44,3 +44,6 @@ sumdf %>%
   sumdf2
 
 ```
+
+Now, I will add some summary statistics 
+
