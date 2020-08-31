@@ -19,6 +19,8 @@ Here, I examine the famous plot from Oeppen and Vaupel (2002).
 
 Here, I load in the data. 
 
+Here, I calculated the maximum life expectancy for each year.
+
 ```{r}
 data("gapminder_unfiltered")
 
