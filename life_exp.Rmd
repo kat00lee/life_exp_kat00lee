@@ -47,3 +47,15 @@ sumdf %>%
 
 Now, I will add some summary statistics 
 
+```{r}
+
+gapminder_unfiltered %>%
+  summarise(avg = mean(lifeExp)) ->
+  gapminder2
+
+gapminder2
+
+
+
+```
+
