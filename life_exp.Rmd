@@ -29,9 +29,18 @@ gapminder_unfiltered %>%
   filter(lifeExp == max(lifeExp)) %>%
   ungroup %>%
   select(country, year, lifeExp) %>%
-  arrange(year)
+  arrange(year) ->
+  sumdf
   
 
 ```
 
 Now, I will make a plot 
+
+```{r}
+
+sumdf %>%
+  arrange(desc(lifeExp)) ->
+  sumdf2
+
+```
